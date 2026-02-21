@@ -4,23 +4,14 @@ AI-powered research paper formatter that converts manuscripts to IEEE conference
 
 ## 🚀 Quick Start
 
-**One-Click Launch**: Double-click `LAUNCH.bat`
+**One-Click Launch**: 
+Download the files
+Double-click `START_ALL.bat`
 
 That's it! The system will:
 - ✅ Start the backend server
 - ✅ Open the frontend in your browser
 - ✅ Be ready to format papers
-
-## 📄 Test It
-
-Upload the test document: `uploads/Ocean_Exploration_Human_Impact.docx`
-
-## 📚 Documentation
-
-- **Complete Guide**: `START_SYSTEM.md`
-- **Integration Details**: `INTEGRATION_COMPLETE.md`
-- **Requirements**: `.kiro/specs/ieee-paper-formatter/requirements.md`
-- **Design**: `.kiro/specs/ieee-paper-formatter/design.md`
 
 ## ✨ Features
 
@@ -34,20 +25,13 @@ Upload the test document: `uploads/Ocean_Exploration_Human_Impact.docx`
 - Change tracking
 - Before/After comparison
 
-## 🧪 Testing
-
-All 91 tests passing:
-```bash
-pytest tests/ -v
-```
-
 ## 🛠️ Tech Stack
 
 - **Backend**: FastAPI, Python 3.12
 - **Frontend**: HTML, CSS, JavaScript
 - **Document Processing**: python-docx
 - **Testing**: pytest, hypothesis
-- **AI**: Google Gemini API (optional)
+- **AI**: Google Gemini API
 
 ## 📊 Status
 
@@ -115,4 +99,5 @@ python -m uvicorn app.main:app --reload
 
 ---
 
-**Need help?** See `START_SYSTEM.md` for detailed instructions.
+
+
