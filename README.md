@@ -14,11 +14,11 @@ That's it! The system will:
 - ✅ Be ready to format papers
 
 ## env file:
-# Ollama Configuration (local AI - no API key needed)
+- Ollama Configuration (local AI - no API key needed)
 OLLAMA_BASE_URL=http://localhost:11434
 OLLAMA_MODEL=qwen2.5:7b
 
-# Optional: timeout in seconds for AI requests
+- Optional: timeout in seconds for AI requests
 OLLAMA_TIMEOUT=120
 
 ## ✨ Features
