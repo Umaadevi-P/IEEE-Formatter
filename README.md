@@ -13,6 +13,14 @@ That's it! The system will:
 - ✅ Open the frontend in your browser
 - ✅ Be ready to format papers
 
+## env file:
+# Ollama Configuration (local AI - no API key needed)
+OLLAMA_BASE_URL=http://localhost:11434
+OLLAMA_MODEL=qwen2.5:7b
+
+# Optional: timeout in seconds for AI requests
+OLLAMA_TIMEOUT=120
+
 ## ✨ Features
 
 - Document parsing and structure extraction
